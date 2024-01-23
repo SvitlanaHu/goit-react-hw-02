@@ -3,8 +3,9 @@
   padding: 20px;
   margin-top: 20px;
   border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
+  border-radius: 8px;
+  background-color: #f5ecec;
   color: #333;
   font-size: 16px;
+  box-shadow: 3px 3px 10px rgba(216, 212, 212, 0.5);
 }

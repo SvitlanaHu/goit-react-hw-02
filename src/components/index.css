@@ -8,6 +8,7 @@ html {
   justify-content: center;
   align-items: center;
   font-family: Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.616);
 }
 
 #root {
