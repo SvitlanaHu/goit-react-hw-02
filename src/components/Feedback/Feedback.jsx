@@ -1,9 +1,7 @@
 import styles from './Feedback.module.css';
 
 export const Feedback = ({ items: { good, neutral, bad }, totalFeedback, positive}) => {
-  
-
-  return (
+    return (
     <div className={styles.feedbackContainer}>
           <p>Good: {good}</p>
           <p>Neutral: {neutral}</p>

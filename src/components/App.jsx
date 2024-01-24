@@ -44,7 +44,7 @@ export const App = () => {
         handleClick={handleClick}
         handleClickReset={handleClickReset}
       />
-      {totalFeedback > 0 ? (<Feedback items={feedback} positive={positive} />) : (<Notification message="No feedback given yet." />)}
+      {totalFeedback > 0 ? (<Feedback items={feedback} totalFeedback={totalFeedback} positive={positive} />) : (<Notification message="No feedback given yet." />)}
     </div>
   );
 };
